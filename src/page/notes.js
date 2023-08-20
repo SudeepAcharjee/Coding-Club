@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 const Notes = () => {
     return (
       <>
@@ -7,6 +8,7 @@ const Notes = () => {
         <section className="hero-section">
           <h1> Notes Page</h1>
         </section>
+        <Footer/>
       </>
     );
   };
