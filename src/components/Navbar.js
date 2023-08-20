@@ -1,10 +1,5 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import {
-  FaFacebookSquare,
-  FaInstagramSquare,
-  FaYoutubeSquare,
-} from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink } from "react-router-dom";
 
@@ -37,7 +32,7 @@ const Navbar = () => {
               <NavLink to="/Tutorials">Tutorials</NavLink>
             </li>
             <li>
-              <NavLink to="/service">Session</NavLink>
+              <NavLink to="/session">Session</NavLink>
             </li>
             <li>
               <NavLink to="/contact">Notes</NavLink>

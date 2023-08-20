@@ -3,20 +3,9 @@ import Navbar from "./components/Navbar";
 import { Switch, Route } from "react-router-dom";
 import Home from "./page/home";
 import Tutorials from "./page/Tutorials";
+import Session from "./page/session";
 
 
-
-const Service = () => {
-  return (
-    <>
-      <Navbar />
-      <section className="hero-section">
-        <p>Welcome to </p>
-        <h1> Service Page</h1>
-      </section>
-    </>
-  );
-};
 
 const Contact = () => {
   return (
@@ -41,8 +30,8 @@ const App = () => {
         <Tutorials />
       </Route>
 
-      <Route path="/service">
-        <Service />
+      <Route path="/session">
+        <Session />
       </Route>
 
       <Route path="/contact">
