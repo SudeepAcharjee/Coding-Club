@@ -1,31 +1,10 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-
 import { Switch, Route } from "react-router-dom";
+import Home from "./page/home";
+import Tutorials from "./page/Tutorials";
 
-const Home = () => {
-  return (
-    <>
-      <Navbar />
-      <section className="hero-section">
-        <p>Subscribe to </p>
-        <h1> Home Page</h1>
-      </section>
-    </>
-  );
-};
 
-const About = () => {
-  return (
-    <>
-      <Navbar />
-      <section className="hero-section">
-        <p>Welcome to </p>
-        <h1> Tutorials Page</h1>
-      </section>
-    </>
-  );
-};
 
 const Service = () => {
   return (
@@ -58,8 +37,8 @@ const App = () => {
         <Home />
       </Route>
 
-      <Route path="/about">
-        <About />
+      <Route path="/Tutorials">
+        <Tutorials />
       </Route>
 
       <Route path="/service">
