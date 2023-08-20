@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/footer";
 import Navbar from "../components/Navbar";
 const Contact = () => {
     return (
@@ -7,6 +8,7 @@ const Contact = () => {
         <section className="hero-section">
           <h1>Contact Page</h1>
         </section>
+        
       </>
     );
   };

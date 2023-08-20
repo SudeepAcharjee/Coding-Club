@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./components/Navbar";
 import { Switch, Route } from "react-router-dom";
 import Home from "./page/home";
 import Tutorials from "./page/Tutorials";
@@ -7,6 +6,7 @@ import Session from "./page/session";
 import Notes from "./page/notes";
 import Projects from "./page/projects";
 import Contact from "./page/contact";
+import Footer from "./components/footer";
 
 const App = () => {
   return (
@@ -35,6 +35,9 @@ const App = () => {
         <Contact />
       </Route>
     </Switch>
+    
+    
+    
   );
 };
 
