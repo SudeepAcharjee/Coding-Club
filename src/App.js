@@ -6,8 +6,7 @@ import Session from "./page/session";
 import Notes from "./page/notes";
 import Projects from "./page/projects";
 import Contact from "./page/contact";
-import { ThemeProvider } from "styled-components";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -36,9 +35,7 @@ const App = () => {
         <Contact />
       </Route>
     </Switch>
-    
-    
-    
+ 
   );
 };
 
