@@ -6,20 +6,7 @@ import Tutorials from "./page/Tutorials";
 import Session from "./page/session";
 import Notes from "./page/notes";
 import Projects from "./page/projects";
-
-
-
-const Contact = () => {
-  return (
-    <>
-      <Navbar />
-      <section className="hero-section">
-        <p>Welcome to </p>
-        <h1> Contact Page</h1>
-      </section>
-    </>
-  );
-};
+import Contact from "./page/contact";
 
 const App = () => {
   return (
