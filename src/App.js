@@ -4,6 +4,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./page/home";
 import Tutorials from "./page/Tutorials";
 import Session from "./page/session";
+import Notes from "./page/notes";
 
 
 
@@ -32,6 +33,10 @@ const App = () => {
 
       <Route path="/session">
         <Session />
+      </Route>
+
+      <Route path="/notes">
+        <Notes />
       </Route>
 
       <Route path="/contact">
