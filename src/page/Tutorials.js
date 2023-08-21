@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 const Tutorials = () => {
     return (
@@ -7,6 +8,7 @@ const Tutorials = () => {
         <section className="hero-section">
           <h1> Tutorials Page</h1>
         </section>
+        <Footer/>
       </>
     );
   };

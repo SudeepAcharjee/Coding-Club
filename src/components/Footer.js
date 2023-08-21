@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Button } from "./button";
 import { NavLink } from "react-router-dom";
-import { FaDiscord, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaDiscord, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -27,21 +27,22 @@ const Footer = () => {
       <footer>
         <div className="container grid grid-four-column">
           <div className="footer-about">
-            <h3>Thapa Technical</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <h3>Coding Club</h3>
+            <p>This is a official website of Coding Club.</p>
+            <p><a href="lcb.co.in">Lalit Chandra Bharali College</a></p>
           </div>
 
           {/* 2nd column */}
           <div className="footer-subscribe">
-            <h3>Subscribe to get important updates</h3>
-            <form action="#">
-              <input
+            <h3>Login to our website and get every resource for free with Project </h3>
+             <form action="#">
+              {/* <input
                 type="email"
                 required
                 autoComplete="off"
                 placeholder="Email"
-              />
-              <input type="submit" value="Subscribe" />
+              />  */}
+              <input type="buttom" onClick={"alert('Login done')"} value="Login" />
             </form>
           </div>
 
@@ -59,7 +60,7 @@ const Footer = () => {
                 <a
                   href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
                   target="_blank">
-                  <FaYoutube className="icons" />
+                  <FaWhatsapp className="icons" />
                 </a>
               </div>
             </div>
@@ -68,7 +69,7 @@ const Footer = () => {
           {/* 4th column  */}
           <div className="footer-contact">
             <h3>Call Us</h3>
-            <h3>+91 12345678978</h3>
+            <h3>+91 8011307741</h3>
           </div>
         </div>
 
@@ -77,11 +78,14 @@ const Footer = () => {
           <hr />
           <div className="container grid grid-two-column">
             <p>
-              @{new Date().getFullYear()} ThapaTechnical. All Rights Reserved
+              @{new Date().getFullYear()} CodingClub. All Rights Reserved<br/>
+              Email us CodingClub-lcbc@gmail.com<br/>
+              Department- lcbcit@gmail.com
             </p>
             <div>
               <p>PRIVACY POLICY</p>
               <p>TERMS & CONDITIONS</p>
+              <p>Developed by SudeepAcharjee</p>
             </div>
           </div>
         </div>

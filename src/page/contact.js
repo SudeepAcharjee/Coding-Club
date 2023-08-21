@@ -8,7 +8,7 @@ const Contact = () => {
         <section className="hero-section">
           <h1>Contact Page</h1>
         </section>
-        
+        <Footer/>
       </>
     );
   };
