@@ -1,91 +1,82 @@
 import React from "react";
-import styled from "styled-components";
-import { Button } from "./button";
-import { NavLink } from "react-router-dom";
-import { FaDiscord, FaInstagram, FaWhatsapp } from "react-icons/fa";
-
+// import styled from "styled-components";
+// import { Button } from "./button";
+// import { NavLink } from "react-router-dom";
+// import { FaDiscord, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import "./navbar.css";
 const Footer = () => {
   return (
-    <Wrapper>
-     
-     
-    </Wrapper>
+   <>
+   <footer>
+  <div className="content">
+    <div className="top">
+      <div className="logo-details">
+        <i className="fab fa-slack" />
+        <span className="logo_name">CodingClub</span>
+      </div>
+      <div className="media-icons">
+        <a href="#">
+          <i className="fab fa-facebook-f" />
+        </a>
+        <a href="#">
+          <i className="fab fa-twitter" />
+        </a>
+        <a href="#">
+          <i className="fab fa-instagram" />
+        </a>
+        <a href="#">
+          <i className="fab fa-linkedin-in" />
+        </a>
+        <a href="#">
+          <i className="fab fa-youtube" />
+        </a>
+      </div>
+    </div>
+    <div className="link-boxes">
+      <ul className="box">
+        <li className="link_name">Company</li>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Contact us</a>
+        </li>
+        <li>
+          <a href="#">About us</a>
+        </li>
+        <li>
+          <a href="#">Get started</a>
+        </li>
+      </ul>
+    
+    
+      <ul className="box input-box">
+        <li className="link_name">Get Free Access</li>
+        <li>
+          <input type="button" defaultValue="Login" />
+        </li>
+        <li>
+          <input type="button" defaultValue="Sign-in" />
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div className="bottom-details">
+    <div className="bottom_text">
+      <span className="copyright_text">
+        Copyright © 2021 <a href="#">CodingLab.</a>All rights reserved
+      </span>
+      <span className="policy_terms">
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms &amp; condition</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+   </>
   );
 };
 
-const Wrapper = styled.section`
-  .contact-short {
-    max-width: 60vw;
-    margin: auto;
-    padding: 5rem 10rem;
-    background-color: ${({ theme }) => theme.colors.bg};
-    border-radius: 1rem;
-    box-shadow: ${({ theme }) => theme.colors.shadowSupport};
-    transform: translateY(50%);
-  }
-  .contact-short-btn {
-    justify-self: end;
-    align-self: center;
-  }
-
-  footer {
-    padding: 14rem 0 9rem 0;
-    background-color: ${({ theme }) => theme.colors.footer_bg};
-
-    h3 {
-      color: ${({ theme }) => theme.colors.hr};
-      margin-bottom: 2.4rem;
-    }
-    p {
-      color: ${({ theme }) => theme.colors.white};
-    }
-    .footer-social--icons {
-      display: flex;
-      gap: 2rem;
-
-      div {
-        padding: 1rem;
-        border-radius: 50%;
-        border: 2px solid ${({ theme }) => theme.colors.white};
-
-        .icons {
-          color: ${({ theme }) => theme.colors.white};
-          font-size: 2.4rem;
-          position: relative;
-          cursor: pointer;
-        }
-      }
-    }
-
-    .footer-bottom--section {
-      padding-top: 9rem;
-
-      hr {
-        margin-bottom: 2rem;
-        color: ${({ theme }) => theme.colors.hr};
-        height: 0.1px;
-      }
-    }
-  }
-
-  @media (max-width: ${({ theme }) => theme.media.mobile}) {
-    .contact-short {
-      max-width: 95vw;
-      padding: 2rem 0rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      .contact-short-btn {
-        text-align: center;
-        justify-self: flex-start;
-      }
-    }
-
-    footer .footer-bottom--section {
-      padding-top: 3.2rem;
-    }
-  }
-`;
 
 export default Footer;
