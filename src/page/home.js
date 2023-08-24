@@ -42,7 +42,7 @@ const Home = () => {
       <div className="col-md-4">
         <div className="about-col">
           <div className="img">
-            <img src="imgg" alt="" className="img-fluid" />
+            <img src="./new-removebg-preview.png" alt="" className="img-fluid" />
             <div className="icon">
               <i className="ion-ios-disc" />
             </div>
@@ -63,7 +63,7 @@ const Home = () => {
       <div className="col-md-4">
         <div className="about-col">
           <div className="img">
-            <img src="" alt="" className="img-fluid" />
+            <img src="./new-removebg-preview.png" alt="" className="img-fluid" />
             <div className="icon">
               <i className="ion-ios-eye" />
             </div>
@@ -84,7 +84,7 @@ const Home = () => {
       <div className="col-md-4">
         <div className="about-col">
           <div className="img">
-            <img src="img/about-objective.jpg" alt="" className="img-fluid" />
+            <img src="./new-removebg-preview.png" alt="" className="img-fluid" />
             <div className="icon">
               <i className="ion-ios-options" />
             </div>
