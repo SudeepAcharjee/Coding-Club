@@ -1275,7 +1275,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .contact .contact-address,
 .contact .contact-phone,
 .contact .contact-email {
-    background: #ffffff;
+    background: rgb(180, 125, 226);
     padding: 15px 30px 25px 30px;
     text-align: center;
     color: #353535;
@@ -1284,7 +1284,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .contact .contact-address:hover,
 .contact .contact-phone:hover,
 .contact .contact-email:hover {
-    box-shadow: 0 0 10px #dddddd;
+    box-shadow: 10px 10px 10px rgb(147, 29, 243);
 }
 
 .contact .contact-info i {
