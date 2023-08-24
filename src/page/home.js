@@ -13,20 +13,18 @@ const Home = () => {
       <section className="about">
   <div className="container">
     <header className="section-header">
-      <h3>About Us</h3>
+      <h3>IT Department</h3>
       <p>
-        Maecenas vel turpis quis lorem aliquam tempus quis non mi. Pellentesque
-        habitant morbi tristique senectus et netus et malesuada fames ac turpis
-        egestas.
+        This website is created and maintained by the members of the coding club. This is non official website that contains free resources
       </p>
     </header>
     <div className="row align-items-center about-row">
       <div className="col-md-6">
-        <img src="img/about.jpg" alt="" className="img-fluid" />
+        <img src="./new-removebg-preview.png" alt="" className="img-fluid" />
       </div>
       <div className="col-md-6">
         <h2 className="title">
-          <a href="#">Welcome to Our Site</a>
+          <a href="#">Welcome to Coding Club</a>
         </h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
