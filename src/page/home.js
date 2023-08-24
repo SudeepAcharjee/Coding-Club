@@ -29,6 +29,7 @@ const Home = () => {
         <p>
         Join us at Coding Club today and embark on an exciting journey of continuous learning, skill-building, and creative exploration. Together, we're not just learning to code – we're shaping a dynamic community passionate about the limitless possibilities of technology.
         Our mission is to democratize coding education, making it accessible to everyone, regardless of their background or financial status.
+        We believe in the power of collaborative learning, which is why our platform encourages members to engage in forums and discussion boards to ask questions, share insights, and seek guidance from fellow members. Our team of experienced mentors is also here to provide expert advice and support as you navigate through various coding challenges.       
         </p>
         {/* <div className="read-more">
           <a href="#">Read More</a>

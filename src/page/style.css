@@ -1,7 +1,7 @@
 /* ------------------ General CSS ------------------ */
 body {
     color: #656565;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Brush Script MT', cursive;
     background: #ffffff;
 }
 
@@ -19,7 +19,7 @@ a:focus {
 }
 
 p {
-    color: #656565;
+    color: #080808;
     padding: 0;
     margin: 0 0 15px 0;
 }
@@ -48,8 +48,8 @@ h6 {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #1dbf73;
-    color: #ffffff;
+    background: rgb(147, 29, 243);
+    color: rgb(180, 125, 226);
     width: 45px;
     height: 45px;
     text-align: center;
@@ -552,12 +552,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about .about-col {
-    background: #ffffff;
+    background: rgb(180, 125, 226);
     margin-bottom: 20px;
 }
 
 .about .about-col:hover {
-    box-shadow: 0px 2px 10px #dddddd;
+    box-shadow: 10px 10px 10px rgb(147, 29, 243);
 }
 
 .about .about-col .img {
@@ -583,20 +583,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 .about .about-col i {
     font-size: 36px;
     line-height: 1;
-    color: #ffffff;
+    color: rgb(147, 29, 243);
     transition: 0.3s;
 }
 
 .about .about-col:hover .icon {
-    background-color: #ffffff;
+    background-color: rgb(147, 29, 243);
 }
 
 .about .about-col:hover i {
-    color: #1dbf73;
+    color: rgb(147, 29, 243);
 }
 
 .about .about-col h2 {
-    color: #353535;
+    color: rgb(147, 29, 243);
     text-align: center;
     font-weight: 700;
     font-size: 20px;
@@ -609,7 +609,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about .about-col h2 a:hover {
-    color: #1dbf73;
+    color: rgb(147, 29, 243);
 }
 
 .about .about-col p {
@@ -627,13 +627,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about .read-more a {
-    font-size: 14px;
+    font-size: 20px;
     letter-spacing: 1px;
     display: inline-block;
     padding: 5px 15px;
     transition: 0.3s;
     margin: 15px 30px 30px 30px;
-    color: #ffffff;
+    color: black;
     background: rgb(180, 125, 226);
 }
 
