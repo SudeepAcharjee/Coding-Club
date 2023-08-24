@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import './home.css'
 import './bootstrap.min.css'
 import './style.css'
-
+import 'typeface-roboto'
 
 const Home = () => {
   return (
@@ -27,22 +27,19 @@ const Home = () => {
           <a href="#">Welcome to Coding Club</a>
         </h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-          condimentum rutrum ligula. Integer ac porttitor mi. In finibus
-          vehicula aliquet. Vestibulum et velit placerat, pretium lorem id,
-          porttitor libero. Suspendisse scelerisque nec arcu a malesuada. Nulla
-          tempus dictum tristique.
+        Join us at Coding Club today and embark on an exciting journey of continuous learning, skill-building, and creative exploration. Together, we're not just learning to code – we're shaping a dynamic community passionate about the limitless possibilities of technology.
+        Our mission is to democratize coding education, making it accessible to everyone, regardless of their background or financial status.
         </p>
-        <div className="read-more">
+        {/* <div className="read-more">
           <a href="#">Read More</a>
-        </div>
+        </div> */}
       </div>
     </div>
     <div className="row about-cols">
       <div className="col-md-4">
         <div className="about-col">
           <div className="img">
-            <img src="./new-removebg-preview.png" alt="" className="img-fluid" />
+            <img src="./" alt="" className="img-fluid" />
             <div className="icon">
               <i className="ion-ios-disc" />
             </div>
@@ -63,7 +60,7 @@ const Home = () => {
       <div className="col-md-4">
         <div className="about-col">
           <div className="img">
-            <img src="./new-removebg-preview.png" alt="" className="img-fluid" />
+            <img src="" alt="" className="img-fluid" />
             <div className="icon">
               <i className="ion-ios-eye" />
             </div>
@@ -84,7 +81,7 @@ const Home = () => {
       <div className="col-md-4">
         <div className="about-col">
           <div className="img">
-            <img src="./new-removebg-preview.png" alt="" className="img-fluid" />
+            <img src="./new-riew.png" alt="" className="img-fluid" />
             <div className="icon">
               <i className="ion-ios-options" />
             </div>
