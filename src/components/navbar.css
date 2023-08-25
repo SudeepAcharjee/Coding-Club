@@ -183,12 +183,13 @@ li {
   }
 
   .mobile-menu-link {
-    background-color: rgb(180, 125, 226);;
-    height: 20rem;
+    background-color: rgb(25, 25, 26);;
+    height: 30rem;
+    width: 100%;
     display: grid;
-    grid-column: 2/5;
+    grid-column: 1/6;
     align-items: center;
-    padding-left: 40%;
+    padding-left: 48%;
     transition: all 2s linear;
     transform-origin: top;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
@@ -196,7 +197,7 @@ li {
   }
 
   .mobile-menu-link ul {
-    height: 20rem;
+    height: 30rem;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -541,3 +542,6 @@ footer .bottom-details .bottom_text{
 }
 
 /* /// */
+  
+
+

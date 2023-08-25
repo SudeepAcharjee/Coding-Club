@@ -45,8 +45,8 @@ h1{
 
 h2 {
    color: ${({ theme }) => theme.colors.heading};
-   font-size: 4.4rem;
-   font-weight: 300;
+   font-size: 4.0rem;
+   font-weight: 500;
    white-space: normal;
    text-align: center;
   }
@@ -58,11 +58,12 @@ h2 {
 
 p {
   color: ${({ theme }) => theme.colors.text};
-  opacity: .7;
-  font-size: 1.65rem;
+  opacity: 2;
+  font-size: 1.95rem;
   line-height: 1.5;
   margin-top: 1rem;
   font-weight:400;
+  font: italic 1.95rem "Fira Sans", serif;
 }
 
 a {

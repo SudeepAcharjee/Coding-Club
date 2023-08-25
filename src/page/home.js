@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import './home.css'
-import './bootstrap.min.css'
-import './style.css'
+import './pg-css/home.css'
+import './pg-css/bootstrap.min.css'
+import './pg-css/style.css'
 import 'typeface-roboto'
 
 const Home = () => {
