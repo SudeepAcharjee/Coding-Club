@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import './pg-css/contact.css'
 const Contact = () => {
     return (
       <>
@@ -59,10 +60,23 @@ const Contact = () => {
         </div> */}
     
       </div>
-    </div>
-  </section>
+    
+   
+   
+      <form>
+        <input name="name" placeholder="What is your name?" className="name" required />
+        <input name="emailaddress" placeholder="What is your email?" className="email" type="email" required />
+        <textarea rows={4} cols={50} name="subject" placeholder="Please enter your message" className="message" required defaultValue={""} />
+        <input name="submit" className="btn" type="submit" defaultValue="Send" />
+      </form>
+      </div>
+      </section>
+      </>
+  
   {/* Contact Section End */}
-</>
+
+
+
 
         <Footer/>
       </>
