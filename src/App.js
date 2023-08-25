@@ -10,6 +10,7 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "../src/components/GlobalStyle";
 
 
+
 const App = () => {
   const theme = {
     colors: {
