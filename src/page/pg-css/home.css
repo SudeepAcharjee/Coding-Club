@@ -1,4 +1,6 @@
-
+body{
+  background-color: #2e2d2d;
+}
 .home-container {
     display: flex;
     justify-content: flex-start;

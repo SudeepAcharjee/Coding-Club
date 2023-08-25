@@ -5,13 +5,13 @@ import './pg-css/home.css'
 import './pg-css/bootstrap.min.css'
 import './pg-css/style.css'
 import 'typeface-roboto'
-import App1 from "../components/card";
+
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <App1 />
+      
       <section className="about">
   <div className="container">
     <header className="section-header">
