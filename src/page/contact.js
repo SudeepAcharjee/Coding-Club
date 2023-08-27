@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import Typewriter from "../components/Typewriter";
 import './pg-css/contact.css'
 const Contact = () => {
     return (
@@ -14,9 +15,7 @@ const Contact = () => {
       <div className="section-header">
         <h3 className="section-title">Contact Us</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-          ullamcorper pharetra ligula nec hendrerit. Ut eu libero nec magna
-          placerat fringilla.
+        Feel free to <Typewriter text="contact us for any query. We will be happy to help you." delay={100} infinite />
 
         </p>
       </div>
@@ -25,7 +24,11 @@ const Contact = () => {
           <div className="contact-address">
             <i className="ion-md-pin" />
             <h3>Address</h3>
-            <address>Your Location, City, Country</address>
+            <p>
+            <img width="30" height="30" src="https://img.icons8.com/color/48/marker--v1.png" alt="marker--v1"/>
+            <a href="https://goo.gl/maps/oKDNZGAh18tYUbwr9"> LCB College, Guwahati, India</a>
+            {/* <address>LCB College, Guwahati, India</address> */}
+            </p>
           </div>
         </div>
         <div className="col-md-4">
@@ -33,7 +36,7 @@ const Contact = () => {
             <i className="ion-md-call" />
             <h3>Admin Contact</h3>
             <p>
-              <a href="tel:+91">+91</a>
+              <a href="tel:+91">+91 XXXXX XXXXX</a>
             </p>
           </div>
         </div>
