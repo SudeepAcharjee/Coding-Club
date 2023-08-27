@@ -5,6 +5,7 @@ import './pg-css/home.css'
 import './pg-css/bootstrap.min.css'
 import './pg-css/style.css'
 import 'typeface-roboto'
+import Typewriter from "../components/Typewriter";
 
 
 const Home = () => {
@@ -17,7 +18,7 @@ const Home = () => {
     <header className="section-header">
       <h3>IT Department</h3>
       <p>
-        This website is created and maintained by the members of the coding club. This is non official website that contains free resources
+      <Typewriter text="This website is created and maintained by the members of the coding club. This is non official website that contains free resources" delay={50}  />
       </p>
     </header>
     <div className="row align-items-center about-row">
