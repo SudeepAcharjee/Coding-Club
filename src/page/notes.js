@@ -2,10 +2,13 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import './pg-css/notes-pg.css';
+import './pg-css/bootstrap.min.css'
+import'./pg-css/style.css'
 const Notes = () => {
   return (
     <>
       <Navbar />
+      <section className="portfolio">
       <div className="ctnr">
   <div className="container">
     <div className="card">
@@ -100,7 +103,7 @@ const Notes = () => {
     </div>
   </div>
 </div>
-
+</section>
       <Footer />
     </>
   );

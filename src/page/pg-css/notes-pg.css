@@ -1,8 +1,8 @@
 :root {
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(29, 80%, 58%);
-  --first-color-light: hsl(29, 80%, 70%);
+  --first-color:rgb(147, 29, 243);
+  --first-color-light:rgb(180, 125, 226);
   --black-color: hsl(29, 16%, 10%);
   --text-color: hsl(29, 8%, 65%);
   --body-color: hsl(29, 100%, 99%);
@@ -31,11 +31,11 @@ img {
 .card {
   position: relative;
   width: 256px;
-  background-color: var(--black-color);
+  background-color: rgb(180, 125, 226);
   padding: 1.25rem 2rem 3rem;
   border-radius: 1.5rem;
   text-align: center;
-  box-shadow: 0 4px 16px hsla(29, 75%, 8%, 0.2);
+  box-shadow: 0 4px 16px rgb(147, 29, 243);;
 }
 .card__img {
   width: 96px;
@@ -66,7 +66,7 @@ img {
   padding: 0.75rem;
   border-radius: 3rem;
   text-align: initial;
-  box-shadow: 0 8px 24px hsla(29, 75%, 56%, 0.3);
+  box-shadow: 0 8px 24px rgb(180, 125, 226);
   position: absolute;
   left: 0;
   right: 0;
