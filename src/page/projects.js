@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer"; 
 import './pg-css/bootstrap.min.css'
 import'./pg-css/style.css'
+import Typewriter from "../components/Typewriter";
+
 
 const Projects = () => {
     return (
@@ -11,6 +13,13 @@ const Projects = () => {
         
         <section className="portfolio">
   <div className="container">
+    <center>
+  <h3 className="section-title"> Projects with Source code </h3>
+  </center>
+        <p>
+        We provide free <Typewriter text="web projects for your portfolio. Learn by building projects source code and live link availavle" delay={100} infinite />
+
+        </p>
     <div className="row portfolio-container">
       <div className="col-lg-4 col-md-6 portfolio-item web-des">
         <div className="portfolio-wrap">
@@ -43,7 +52,7 @@ const Projects = () => {
         <div className="portfolio-wrap">
           <figure>
             <img
-              src="img/portfolio-2.jpg"
+              src="./pg-img/monkey.png"
               className="img-fluid"
               alt="Portfolio"
             />
