@@ -51,7 +51,7 @@ const Tutorials = () => {
             <i className="ri-download-cloud-2-line" />
           </div>
           <a href="#" className="card__social-text">
-            DOWNLOAD
+            start
           </a>
         </div>
       </div>
